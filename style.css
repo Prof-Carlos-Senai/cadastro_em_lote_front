@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;;
+}
+
+body{
+    background: linear-gradient(to left, rgb(176, 217, 248),rgb(98, 187, 255),rgb(12, 150, 255));
+    color: whitesmoke;
+    font-family: Verdana;
+    height: 100vh;
+    text-align: center;
+}
+
+header{
+    padding: 16px 0px;
+}
+
+a{
+    font-size: 1.5rem;
+    margin-right: 32px;
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+    padding: 8px 16px;
+}
+
+a:hover{
+    transition: ease 0.5s;
+    background-color: blue;
+    border-radius: 12px;
+}
+
+h2{
+    margin-top: 32px;
+    font-size: 2.5rem;
+}
+
+label, input, button{
+    font-size: 1.5rem;
+}
+
+input{
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+button{
+    padding: 8px 16px;
+    background-color: black;
+    color: whitesmoke;
+    border-radius: 8px;
+}
+
+footer{
+    margin-top: 16px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/terminal.png" type="image/png">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./progCadastrar.js"defer></script>
+    <title>Principal</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="./index.html">Principal</a>
+            <a href="./cadastrar.html">Cadastrar</a>
+            <a href="./cadastrarLote.html">Cadastrar em Lote</a>
+            <a href="./listar.html">Listar</a>
+            <a href="./consultar.html">Consultar</a>
+            <a href="./apagar.html">Apagar</a>
+            <a href="./atualizar.html">Atualizar</a>
+        </nav>
+    </header>
+    <main>
+        <hr>
+        <h2>Carregar Produto do Fornecedor</h2><br>
+        <form>
+            <label for="codigo">Digite o código do Fornecedor</label>
+            <input type="text" id="codigo"><br><br>
+            <button id="carregar" type="submit">Buscar</button><br><br>
+        </form>
+        <hr>
+        <h2>Cadastrar Produto</h2><br>
+        <form>
+            <label for="nome">Nome do produto</label>
+            <input type="text" id="nome"><br><br>
+            <label for="preco">Preço do produto</label>
+            <input type="text" id="preco"><br><br>
+            <label for="quantidade">Quantidade</label>
+            <input type="text" id="quantidade"><br><br>
+            <label for="descricao">Descrição do produto</label>
+            <input type="text" id="descricao"><br><br>
+            <label for="marca">Marca do produto</label>
+            <input type="text" id="marca"><br><br><br>
+            
+            <button id="cadastrar" type="submit" >Cadastrar</button><br><br>
+        </form>
+        <div id="res"></div>    
+    </main>
+    <footer>
+        by Carlos &copy; &trade;
+    </footer>
+</body>
+</html>
