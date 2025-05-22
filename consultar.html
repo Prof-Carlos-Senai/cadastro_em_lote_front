@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/terminal.png" type="image/png">
     <link rel="stylesheet" href="./style.css">
+    <script src="./progConsultar.js"defer></script>
     <title>Principal</title>
 </head>
 <body>
@@ -17,10 +18,15 @@
             <a href="./consultar.html">Consultar</a>
             <a href="./apagar.html">Apagar</a>
             <a href="./atualizar.html">Atualizar</a>
+            <a href="./grafico_barras.html">Gráfico</a>
         </nav>
     </header>
     <main>
         <h1>Consultar</h1>
+        <label for="id">Código do Banco de Dados:</label><br>
+        <input type="text" id="id" placeholder="código"><br><br>
+        <button id="consultar">Consultar</button><br><br>
+        <div id="res"></div>
     </main>
     <footer>
         by Carlos &copy; &trade;

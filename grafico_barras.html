@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./img/terminal.png" type="image/png">
     <link rel="stylesheet" href="./style.css">
-    <script src="./progListar.js"defer></script>
-    <title>Principal</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"defer></script>
+    <script src="./grafico_barras.js"defer></script>
+    <title>Gráfico</title>
 </head>
 <body>
     <header>
@@ -22,10 +23,10 @@
         </nav>
     </header>
     <main>
-        <h1>Listar</h1>
+        <h1>Gráfico</h1>
         <br>
-        <button id="listar">Listar</button><br><br>
-        <div id="res"></div>
+        <button id="gerarGrafico">Gráfico</button><br><br>
+        <canvas id="graf" height="100"></canvas>
     </main>
     <footer>
         by Carlos &copy; &trade;
